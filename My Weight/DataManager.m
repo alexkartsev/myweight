@@ -13,14 +13,6 @@
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
-- (id) init
-{
-    if (self = [super init])
-    {
-    }
-    return self;
-}
-
 
 + (DataManager*) sharedManager {
     
