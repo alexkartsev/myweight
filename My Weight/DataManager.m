@@ -18,21 +18,8 @@
     if (self = [super init])
     {
     }
-    //    [[NSNotificationCenter defaultCenter] addObserver:self
-    //                                             selector:@selector(deleteAllObjects)
-    //                                                 name:@"Delete Objects"
-    //                                               object:nil];
     return self;
 }
-
-//-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
-//{
-//
-//    if([keyPath isEqualToString:@"Delete Objects"])
-//    {
-//        NSLog(@"УРААААА");
-//    }
-//}
 
 
 + (DataManager*) sharedManager {
