@@ -1,2 +1,2 @@
 # myweight
-This application work with Parse.com, uses CoreData, CoreGraphics, also Singleton pattern 
+The application works with Parse.com, uses CoreData and CoreGraphics
